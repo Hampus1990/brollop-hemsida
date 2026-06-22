@@ -83,10 +83,8 @@ export const content = {
         {
           heading: "Kontakt",
           items: [
-            "Hampus: Hampus.Ny@Outlook.com
-            076-897 72 35",
-            "Kelsi: Smith.Kelsi4@Gmail.com
-            072-566 25 57",
+            "Hampus: Hampus.Ny@Outlook.com\n076-897 72 35",
+            "Kelsi: Smith.Kelsi4@Gmail.com\n072-566 25 57",
             "Frågor? Hör av er till oss!",
           ],
         },
@@ -222,10 +220,8 @@ export const content = {
         {
           heading: "Contact",
           items: [
-            "Hampus: Hampus.Ny@Outlook.com
-            +46 76-897 72 35",
-            "Kelsi: Smith.Kelsi4@Gmail.com
-            +46 72-566 25 57",
+            "Hampus: Hampus.Ny@Outlook.com\n+46 76-897 72 35",
+            "Kelsi: Smith.Kelsi4@Gmail.com\n+46 72-566 25 57",
             "Any questions? Don't hesitate to reach out!",
           ],
         },
