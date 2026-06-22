@@ -1,26 +1,33 @@
-import { LanguageProvider } from "@/components/language-provider"
-import { Navbar } from "@/components/navbar"
-import { Hero } from "@/components/hero"
-import { OurDay } from "@/components/our-day"
-import { Venue } from "@/components/venue"
-import { PracticalInfo } from "@/components/practical-info"
-import { Gifts } from "@/components/gifts"
-import { Faq } from "@/components/faq"
-import { SiteFooter } from "@/components/site-footer"
+"use client"
 
-export default function Page() {
+export function Hero() {
   return (
-    <LanguageProvider>
-      <Navbar />
-      <main>
-        <Hero />
-        <OurDay />
-        <Venue />
-        <PracticalInfo />
-        <Gifts />
-        <Faq />
-      </main>
-      <SiteFooter />
-    </LanguageProvider>
+    <section
+      className="relative h-screen w-full flex items-center justify-center text-center text-white"
+      style={{
+        backgroundImage: "url('/malsaker.jpg')",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        transform: "none",
+      }}
+    >
+      {/* overlay */}
+      <div className="absolute inset-0 bg-black/35" />
+
+      {/* content */}
+      <div className="relative z-10 px-6">
+        <h1 className="text-5xl md:text-7xl font-serif">
+          Hampus & Kelsi
+        </h1>
+
+        <p className="mt-4 text-lg md:text-xl">
+          22 augusti 2026 · Mälsåkers Slott
+        </p>
+
+        <p className="mt-6 text-sm md:text-base opacity-90">
+          Välkommen att fira med oss
+        </p>
+      </div>
+    </section>
   )
 }
