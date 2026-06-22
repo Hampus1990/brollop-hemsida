@@ -83,8 +83,10 @@ export const content = {
         {
           heading: "Kontakt",
           items: [
-            "Hampus: Hampus.Ny@Outlook.com · 076-897 72 35",
-            "Kelsi: Smith.Kelsi4@Gmail.com · 072-566 25 57",
+            "Hampus: Hampus.Ny@Outlook.com
+            076-897 72 35",
+            "Kelsi: Smith.Kelsi4@Gmail.com
+            072-566 25 57",
             "Frågor? Hör av er till oss!",
           ],
         },
@@ -95,7 +97,7 @@ export const content = {
       title: "Gåvor",
       intro:
         "Er närvaro är den största gåvan. För den som önskar bidra ytterligare skulle vi bli väldigt glada för ett bidrag till vår bröllopsresa i Asien.",
-      note: "Välj gärna ett minne att skänka till resan",
+      note: "Välj gärna ett minne att skänka till resan. Swisha gärna till Hampus/Kelsi på kontaktuppgifter ovan och ange vilket minne du vill skänka i meddelandet.",
       cards: [
         { icon: "Plane", title: "Flygresa", text: "Vingarna som tar oss dit" },
         { icon: "TrainFront", title: "Tågresa", text: "Genom landskap och städer" },
@@ -220,8 +222,10 @@ export const content = {
         {
           heading: "Contact",
           items: [
-            "Hampus: Hampus.Ny@Outlook.com · +46 76-897 72 35",
-            "Kelsi: Smith.Kelsi4@Gmail.com · +46 72-566 25 57",
+            "Hampus: Hampus.Ny@Outlook.com
+            +46 76-897 72 35",
+            "Kelsi: Smith.Kelsi4@Gmail.com
+            +46 72-566 25 57",
             "Any questions? Don't hesitate to reach out!",
           ],
         },
@@ -231,7 +235,7 @@ export const content = {
       kicker: "Wish List",
       title: "Gifts",
       intro:
-        "Your presence is the greatest gift. For those who wish to give a little more, we would be truly delighted by a contribution towards our honeymoon in Asia.",
+        "Your presence is the greatest gift — and for those of you travelling from afar, the journey itself is more than enough. For those who wish to give a little more, we would be truly delighted by a contribution towards our honeymoon in Asia.",
       note: "Choose a memory to gift towards the journey",
       cards: [
         { icon: "Plane", title: "Flights", text: "The wings that take us there" },
