@@ -13,7 +13,7 @@ export function Hero() {
        className="absolute inset-0 h-full w-full object-cover"
         style={{ 
           filter: "brightness(1.08) saturate(1.04) contrast(1.01) sepia(0.08)",
-          transform: "rotate(+2deg) scale(1.05)"
+          transform: "rotate(+1.5deg) scale(1.02)"
         }}
       />
       {/* Warm editorial tint */}
