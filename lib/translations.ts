@@ -80,6 +80,14 @@ export const content = {
           heading: "Barn",
           items: ["Vi älskar era barn, men denna dag är reserverad för vuxna."],
         },
+        {
+          heading: "Kontakt",
+          items: [
+            "Hampus: Hampus.Ny@Outlook.com · 076-897 72 35",
+            "Kelsi: Smith.Kelsi4@Gmail.com · 072-566 25 57",
+            "Frågor? Hör av er till oss!",
+          ],
+        },
       ],
     },
     gifts: {
@@ -208,6 +216,14 @@ export const content = {
         {
           heading: "Children",
           items: ["We love your children, but this day is reserved for adults."],
+        },
+        {
+          heading: "Contact",
+          items: [
+            "Hampus: Hampus.Ny@Outlook.com · +46 76-897 72 35",
+            "Kelsi: Smith.Kelsi4@Gmail.com · +46 72-566 25 57",
+            "Any questions? Don't hesitate to reach out!",
+          ],
         },
       ],
     },
