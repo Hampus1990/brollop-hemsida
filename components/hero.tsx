@@ -10,8 +10,11 @@ export function Hero() {
       <img
         src="/images/hero-malsaker-graded.jpg"
         alt="Mälsåkers Slott, a white Swedish baroque castle, leveled and composed for editorial balance"
-        className="absolute inset-0 h-full w-full object-cover"
-        style={{ filter: "brightness(1.08) saturate(1.04) contrast(1.01) sepia(0.08)" }}
+       className="absolute inset-0 h-full w-full object-cover"
+        style={{ 
+          filter: "brightness(1.08) saturate(1.04) contrast(1.01) sepia(0.08)",
+          transform: "rotate(-10deg) scale(1.3)"
+        }}
       />
       {/* Warm editorial tint */}
       <div
