@@ -49,7 +49,7 @@ export function About() {
               src="/images/IMG_0317.jpeg"
               alt="Hampus with a beer by Stockholm Palace"
               className="w-full aspect-square object-cover"
-              style={{ objectPosition: "center 30%" }}
+              style={{ objectPosition: "center 40%", transform: "scale(0.7)" }}
             />
           </div>
           <div className="overflow-hidden rounded-sm border border-border">
