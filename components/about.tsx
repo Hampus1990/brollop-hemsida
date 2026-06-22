@@ -47,9 +47,8 @@ export function About() {
           <div className="overflow-hidden rounded-sm border border-border">
             <img
               src="/images/IMG_0317.jpeg"
-              alt="Hampus with a beer by Stockholm Palace"
+              alt="Midsommar with flower crowns"
               className="w-full aspect-square object-cover"
-              style={{ objectPosition: "center 40%", transform: "scale(0.7)" }}
             />
           </div>
           <div className="overflow-hidden rounded-sm border border-border">
