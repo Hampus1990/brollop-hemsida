@@ -1,9 +1,9 @@
 "use client"
 
 import { useLanguage } from "@/components/language-provider"
-import { Car, BedDouble, UtensilsCrossed, Shirt, Baby } from "lucide-react"
+import { Car, BedDouble, UtensilsCrossed, Shirt, Baby, Mail } from "lucide-react"
 
-const icons = [Car, BedDouble, UtensilsCrossed, Shirt, Baby]
+const icons = [Car, BedDouble, UtensilsCrossed, Shirt, Baby, Mail]
 
 export function PracticalInfo() {
   const { t } = useLanguage()
