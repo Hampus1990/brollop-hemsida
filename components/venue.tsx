@@ -41,7 +41,7 @@ export function Venue() {
                   {t.venue.address}
                 </p>
                 <a
-                  href="https://www.google.com/maps/search/?api=1&query=M%C3%A4ls%C3%A5kers+Slott+Str%C3%A4ngn%C3%A4s"
+                  href="https://www.google.com/maps/search/?api=1&query=59.383974,17.3068422"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="mt-2 inline-block text-sm text-primary underline-offset-4 transition-colors hover:text-foreground hover:underline"
@@ -71,7 +71,7 @@ export function Venue() {
               <div className="overflow-hidden rounded-sm border border-border">
                 <iframe
                   title={t.venue.title}
-                  src="https://www.openstreetmap.org/export/embed.html?bbox=17.0975%2C59.3315%2C17.1375%2C59.3515&layer=mapnik&marker=59.3415%2C17.1175"
+                  src="https://www.openstreetmap.org/export/embed.html?bbox=17.2868%2C59.3739%2C17.3268%2C59.3939&layer=mapnik&marker=59.383974%2C17.3068422"
                   className="h-full min-h-[200px] w-full grayscale-[0.2]"
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
