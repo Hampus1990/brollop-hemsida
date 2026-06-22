@@ -71,7 +71,7 @@ export function Venue() {
               <div className="overflow-hidden rounded-sm border border-border">
                 <iframe
                   title={t.venue.title}
-                  src="https://www.openstreetmap.org/export/embed.html?layer=mapnik&marker=59.3106%2C17.1619"
+                  src="https://www.openstreetmap.org/export/embed.html?bbox=17.0975%2C59.3315%2C17.1375%2C59.3515&layer=mapnik&marker=59.3415%2C17.1175"
                   className="h-full min-h-[200px] w-full grayscale-[0.2]"
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
