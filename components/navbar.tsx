@@ -69,7 +69,7 @@ export function Navbar() {
             className={cn(
               "rounded-sm px-2 py-1 transition-colors",
               lang === "sv"
-                ? "text-foreground"
+                ? "text-background"
                 : "text-muted-foreground hover:text-foreground",
             )}
           >
@@ -85,7 +85,7 @@ export function Navbar() {
             className={cn(
               "rounded-sm px-2 py-1 transition-colors",
               lang === "en"
-                ? "text-foreground"
+                ? "text-background"
                 : "text-muted-foreground hover:text-foreground",
             )}
           >
