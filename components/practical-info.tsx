@@ -60,7 +60,7 @@ export function PracticalInfo() {
                           className="mt-2 h-1 w-1 shrink-0 rounded-full bg-accent"
                           aria-hidden
                         />
-                        <span>{item}</span>
+                        <span className="whitespace-pre-line">{item}</span>
                       </li>
                     ))}
                   </ul>
