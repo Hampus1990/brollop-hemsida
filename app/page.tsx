@@ -1,6 +1,7 @@
 import { LanguageProvider } from "@/components/language-provider"
 import { Navbar } from "@/components/navbar"
 import { Hero } from "@/components/hero"
+import { About } from "@/components/about"
 import { OurDay } from "@/components/our-day"
 import { Venue } from "@/components/venue"
 import { PracticalInfo } from "@/components/practical-info"
@@ -14,6 +15,7 @@ export default function Page() {
       <Navbar />
       <main>
         <Hero />
+        <About />
         <OurDay />
         <Venue />
         <PracticalInfo />
