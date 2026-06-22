@@ -104,18 +104,14 @@ export const content = {
     faq: {
       kicker: "Bra att veta",
       title: "Vanliga frågor",
-      items: [
-        {
-          q: "Får jag ta med en partner?",
-          a: "Inbjudan gäller de personer som står namngivna på ert kort. Hör gärna av er om ni har frågor om er inbjudan.",
-        },
+      items: [        
         {
           q: "Är barn inbjudna?",
           a: "Vårt firande är endast för vuxna, så att alla kan njuta av kvällen och natten fullt ut.",
         },
         {
           q: "Var ska jag bo?",
-          a: "Vi rekommenderar att bo i Strängnäs och att boka boende i god tid, då utbudet är begränsat.",
+          a: "Vi rekommenderar att bo i Strängnäs och att boka boende i god tid.",
         },
         {
           q: "Finns det parkering?",
@@ -237,18 +233,14 @@ export const content = {
     faq: {
       kicker: "Good to Know",
       title: "Frequently Asked Questions",
-      items: [
-        {
-          q: "Can I bring a plus one?",
-          a: "The invitation applies to the names listed on your card. Please reach out if you have any questions about your invitation.",
-        },
+      items: [        
         {
           q: "Are children invited?",
           a: "Our celebration is adults-only, so everyone can fully enjoy the evening and the night.",
         },
         {
           q: "Where should I stay?",
-          a: "We recommend staying in Strängnäs and booking accommodation early, as availability is limited.",
+          a: "We recommend staying in Strängnäs and booking accommodation early.",
         },
         {
           q: "Is there parking?",
