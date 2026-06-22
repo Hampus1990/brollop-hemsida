@@ -35,7 +35,10 @@ export function Navbar() {
       <nav className="mx-auto flex h-16 max-w-6xl items-center justify-between px-5 md:h-20 md:px-8">
         <a
           href="#top"
-          className="font-serif text-lg tracking-wide text-foreground md:text-xl"
+          className={cn(
+  "font-serif text-lg tracking-wide md:text-xl transition-colors",
+  scrolled ? "text-foreground" : "text-background"
+)}
         >
           H <span className="text-accent">&</span> K
         </a>
@@ -45,7 +48,12 @@ export function Navbar() {
             <li key={link.href}>
               <a
                 href={link.href}
-                className="text-[0.7rem] font-medium uppercase tracking-[0.22em] text-muted-foreground transition-colors hover:text-foreground"
+                className={cn(
+  "text-[0.7rem] font-medium uppercase tracking-[0.22em] transition-colors",
+  scrolled
+    ? "text-muted-foreground hover:text-foreground"
+    : "text-background/80 hover:text-background"
+)}
               >
                 {link.label}
               </a>
