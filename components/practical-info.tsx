@@ -42,14 +42,16 @@ export function PracticalInfo() {
                   key={card.heading}
                   className="flex flex-col bg-card p-7 md:p-8"
                 >
-                  <Icon
-                    className="h-5 w-5 text-primary"
-                    strokeWidth={1.5}
-                    aria-hidden
-                  />
-                  <h3 className="mt-5 font-serif text-2xl text-foreground">
-                    {card.heading}
-                  </h3>
+                  <div className="flex items-center gap-3">
+                    <Icon
+                      className="h-5 w-5 text-primary"
+                      strokeWidth={1.5}
+                      aria-hidden
+                    />
+                    <h3 className="font-serif text-2xl text-foreground">
+                      {card.heading}
+                    </h3>
+                  </div>
                   <ul className="mt-4 flex flex-col gap-2.5">
                     {card.items.map((item, j) => (
                       <li
