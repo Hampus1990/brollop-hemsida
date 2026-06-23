@@ -66,10 +66,11 @@ export const content = {
           ],
         },
         {
-          heading: "Mat",
+          heading: "Mat & Dryck",
           items: [
             "Buffémiddag serveras",
             "Meddela oss gärna eventuella allergier",
+            "Alkohol samt alkoholfria alternativ kommer att finnas",
           ],
         },
         {
@@ -94,7 +95,7 @@ export const content = {
       kicker: "Önskelista",
       title: "Gåvor",
       intro:
-        "Er närvaro är den största gåvan. För den som önskar bidra ytterligare skulle vi bli väldigt glada för ett bidrag till vår bröllopsresa i Asien.",
+        "Er närvaro är den största gåvan. För den som önskar bidra ytterligare skulle vi bli väldigt glada för ett bidrag till vår bröllopsresa till Asien eller Afrika.",
       note: "Välj gärna ett minne att skänka till resan. Swisha gärna till Hampus/Kelsi på kontaktuppgifter ovan och ange vilket minne du vill skänka i meddelandet.",
       cards: [
         { icon: "Plane", title: "Flygresa", text: "Vingarna som tar oss dit" },
@@ -102,8 +103,7 @@ export const content = {
         { icon: "Landmark", title: "Tempel & kultur", text: "Stillhet och historia" },
         { icon: "UtensilsCrossed", title: "Street food-kväll", text: "Smaker på gatan" },
         { icon: "Sunset", title: "Solnedgångsmiddag", text: "Middag vid horisonten" },
-        { icon: "Palmtree", title: "Strandsdag", text: "En dag i sol och sand" },
-        { icon: "Sailboat", title: "Kajakäventyr", text: "Ut på lugna vatten" },
+        { icon: "Palmtree", title: "Strandsdag", text: "En dag i sol och sand" },        
         { icon: "BedDouble", title: "Hotellnatt", text: "En natt av lyx" },
         { icon: "Martini", title: "Cocktailkväll", text: "En skål för oss" },
         { icon: "Camera", title: "Fotoäventyr", text: "Minnen att bevara" },
@@ -134,7 +134,7 @@ export const content = {
     rsvp: {
       kicker: "Anmälan",
       title: "OSA",
-      subtitle: "Vänligen svara senast 12 juli 2026.",
+      subtitle: "Vänligen svara senast 26 juli 2026.",
       nameLabel: "Namn",
       namePlaceholder: "Ditt namn",
       attendingLabel: "Kommer du?",
@@ -222,10 +222,11 @@ export const content = {
           ],
         },
         {
-          heading: "Food",
+          heading: "Food & Drinks",
           items: [
             "Buffet dinner will be served",
             "Please notify us of any allergies",
+            "Alcholic and alcohol free alternativ will be available",
           ],
         },
         {
@@ -250,7 +251,7 @@ export const content = {
       kicker: "Wish List",
       title: "Gifts",
       intro:
-        "Your presence is the greatest gift — and for those of you travelling from afar, the journey itself is more than enough. For those who wish to give a little more, we would be truly delighted by a contribution towards our honeymoon in Asia.",
+        "Your presence is the greatest gift — and for those of you travelling from afar, the journey itself is more than enough. For those who wish to give a little more, we would be truly delighted by a contribution towards our honeymoon in Asia or Africa.",
       note: "Choose a memory to gift towards the journey",
       cards: [
         { icon: "Plane", title: "Flights", text: "The wings that take us there" },
@@ -258,8 +259,7 @@ export const content = {
         { icon: "Landmark", title: "Temples & Culture", text: "Stillness and history" },
         { icon: "UtensilsCrossed", title: "Street Food Evening", text: "Flavours on the street" },
         { icon: "Sunset", title: "Sunset Dinner", text: "Dinner by the horizon" },
-        { icon: "Palmtree", title: "Beach Day", text: "A day in sun and sand" },
-        { icon: "Sailboat", title: "Kayaking Adventure", text: "Out on calm waters" },
+        { icon: "Palmtree", title: "Beach Day", text: "A day in sun and sand" },        
         { icon: "BedDouble", title: "Hotel Night", text: "A night of luxury" },
         { icon: "Martini", title: "Cocktail Evening", text: "A toast to us" },
         { icon: "Camera", title: "Photo Adventure", text: "Memories to keep" },
@@ -290,7 +290,7 @@ export const content = {
     rsvp: {
       kicker: "RSVP",
       title: "RSVP",
-      subtitle: "Please respond by 12th og July 2026.",
+      subtitle: "Please respond by 26th of July 2026.",
       nameLabel: "Name",
       namePlaceholder: "Your name",
       attendingLabel: "Will you be joining us?",
