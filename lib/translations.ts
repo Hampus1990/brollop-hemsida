@@ -134,7 +134,7 @@ export const content = {
     rsvp: {
       kicker: "Anmälan",
       title: "OSA",
-      subtitle: "Vänligen svara senast 1 juni 2026.",
+      subtitle: "Vänligen svara senast 12 juli 2026.",
       nameLabel: "Namn",
       namePlaceholder: "Ditt namn",
       attendingLabel: "Kommer du?",
@@ -290,7 +290,7 @@ export const content = {
     rsvp: {
       kicker: "RSVP",
       title: "RSVP",
-      subtitle: "Please respond by 1 June 2026.",
+      subtitle: "Please respond by 12th og July 2026.",
       nameLabel: "Name",
       namePlaceholder: "Your name",
       attendingLabel: "Will you be joining us?",
