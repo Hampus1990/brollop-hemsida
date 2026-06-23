@@ -18,6 +18,7 @@ export default function Page() {
         <Hero />
         <About />
         <OurDay />
+        <Rsvp />
         <Venue />
         <PracticalInfo />
         <Gifts />
