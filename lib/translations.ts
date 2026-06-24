@@ -61,8 +61,14 @@ export const content = {
         {
           heading: "Boende",
           items: [
-            "Vi rekommenderar att boka tidigt",
-            "Vi rekommenderar att bo i Strängnäs",
+            "Det pågår andra event i Strängnäs under helgen, vi rekommenderar att boka tidigt",
+            "Vi rekommenderar att bo i Stallarholmen/Strängnäs",
+            "Hotel Bishop Arms Strängnäs",
+            "Malmgårdens vandrarhem",
+            "Näsbyviks gård",
+            "Privat boende 4-6 personer i Stallarholmen (kontakta Hampus för detaljer)",
+            "AirBnb",
+            "2-3 Tältplatser på Mälsåkers vingård (kontakta Hampus för detaljer)",
           ],
         },
         {
@@ -218,7 +224,14 @@ export const content = {
           heading: "Accommodation",
           items: [
             "We recommend booking soon",
-            "We recommend staying in Strängnäs",
+            "We recommend staying in Stallarholmen/Strängnäs",
+            "There's other events in Strängnäs during the weekend, we recommend booking early",                        
+            "Hotel Bishop Arms Strängnäs",
+            "Malmgårdens vandrarhem",
+            "Näsbyviks gård",
+            "Privat accomodation 4-6 persons in Stallarholmen (contact Hampus for details)",
+            "AirBnb",
+            "2-3 Tenting spots at Mälsåkers vingård (contact Hampus for details)",
           ],
         },
         {
