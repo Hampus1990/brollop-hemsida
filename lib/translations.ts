@@ -223,9 +223,8 @@ export const content = {
         {
           heading: "Accommodation",
           items: [
-            "We recommend booking soon",
-            "We recommend staying in Stallarholmen/Strängnäs",
             "There's other events in Strängnäs during the weekend, we recommend booking early",                        
+            "We recommend staying in Stallarholmen/Strängnäs",
             "Hotel Bishop Arms Strängnäs",
             "Malmgårdens vandrarhem",
             "Näsbyviks gård",
