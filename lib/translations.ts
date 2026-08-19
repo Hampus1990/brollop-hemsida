@@ -22,6 +22,7 @@ export const content = {
       title: "Praktisk information",
       subtitle:
         "Allt du behöver veta om platsen, dagens schema och slottet – tryck på en rubrik för att läsa mer.",
+      mapAlt: "Karta över Mälsåkers Slott med parkering, gångväg, toaletter och mingelområde markerat",
       sections: [
         {
           heading: "Plats & vägbeskrivning",
@@ -33,16 +34,6 @@ export const content = {
             "Gångväg till slottet: Följ den gula markerade rutten från parkeringen – allén fram till slottet består av ca 60% asfalt och 40% grus, så tänk på skorna!",
             "Toaletter: Finns endast i baracken (orange markering på kartan), i anslutning till mingelområdet. OBS: under middagen sitter vi tre trappor upp i slottet (endast trappa, ingen hiss) – ta gärna ett toalettbesök innan middagen börjar.",
             "Mingel/reception: Blått markerat område på kartan, där snittar och dryck finns framdukat.",
-          ],
-        },
-        {
-          heading: "Dagens schema",
-          list: [
-            "14:30 – Ankomst till mingelområdet, snittar och dryck framdukat",
-            "Vigsel i kapellet",
-            "Champagneskål efter vigseln",
-            "Fortsatt mingel",
-            "18:00 – Middag",
           ],
         },
         {
@@ -307,6 +298,7 @@ export const content = {
       title: "Practical Information",
       subtitle:
         "Everything you need to know about the venue, the day's schedule and the castle — tap a heading to read more.",
+      mapAlt: "Map of Mälsåkers Slott showing parking, the walking route, restrooms and the mingling area",
       sections: [
         {
           heading: "Location & Directions",
@@ -316,16 +308,6 @@ export const content = {
             "Walking route to the castle: Follow the yellow marked route from the parking area — the avenue up to the castle is about 60% paved and 40% gravel, so plan your shoes accordingly!",
             "Restrooms: Only available in the barrack (marked in orange on the map), next to the mingling area. Note: during dinner we'll be three flights up in the castle (stairs only, no elevator) — we recommend using the restroom before dinner starts.",
             "Mingling/reception: Marked in blue on the map, where canapés and drinks will be served.",
-          ],
-        },
-        {
-          heading: "Schedule of the Day",
-          list: [
-            "14:30 – Arrival at the mingling area, canapés and drinks served",
-            "Ceremony in the chapel",
-            "Champagne toast after the ceremony",
-            "Continued mingling",
-            "18:00 – Dinner",
           ],
         },
         {
