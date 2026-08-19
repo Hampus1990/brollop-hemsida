@@ -17,6 +17,129 @@ export const content = {
       subtitle: "En helg av kärlek, mat och firande på Mälsåkers Slott",
       cta: "Se detaljer",
     },
+    dayDetails: {
+      kicker: "Bra att veta",
+      title: "Praktisk information",
+      subtitle:
+        "Allt du behöver veta om platsen, dagens schema och slottet – tryck på en rubrik för att läsa mer.",
+      sections: [
+        {
+          heading: "Plats & vägbeskrivning",
+          paragraphs: [
+            "Mälsåkers Slott, 645 93 Strängnäs.",
+          ],
+          list: [
+            "Parkering: Markerad i rött på kartan. Cirka 5 minuters promenad till slottet.",
+            "Gångväg till slottet: Följ den gula markerade rutten från parkeringen – allén fram till slottet består av ca 60% asfalt och 40% grus, så tänk på skorna!",
+            "Toaletter: Finns endast i baracken (orange markering på kartan), i anslutning till mingelområdet. OBS: under middagen sitter vi tre trappor upp i slottet (endast trappa, ingen hiss) – ta gärna ett toalettbesök innan middagen börjar.",
+            "Mingel/reception: Blått markerat område på kartan, där snittar och dryck finns framdukat.",
+          ],
+        },
+        {
+          heading: "Dagens schema",
+          list: [
+            "14:30 – Ankomst till mingelområdet, snittar och dryck framdukat",
+            "Vigsel i kapellet",
+            "Champagneskål efter vigseln",
+            "Fortsatt mingel",
+            "18:00 – Middag",
+          ],
+        },
+        {
+          heading: "Toastmaster & tal",
+          paragraphs: [
+            "Hampus bror Jesper Ny är kvällens Toastmaster.",
+            "Vill du hålla tal? Anmäl det till Jesper senast fredag 21/8 kl. 18:00 på telefon 073-033 19 55.",
+          ],
+        },
+        {
+          heading: "Om slottet",
+          paragraphs: [
+            "Ni får gärna röra er fritt i slottet så länge det inte är en stängd dörr.",
+          ],
+          groups: [
+            {
+              label: "Våning 1",
+              items: [
+                "Kapellet, där vigseln äger rum, ligger nära mingelområdet. I hallen mittemot kapellet finns ett presentbord. Våningen rymmer även en del av slottets historiska museum/utställning.",
+              ],
+            },
+            {
+              label: "Våning 2",
+              items: [
+                "Fortsättning på museet, samt historiska mottagningsrum – bland annat guldfoajén och tesalongen. Vid regn flyttar mingel hit.",
+              ],
+            },
+            {
+              label: "Våning 3 – Riddarsalen",
+              items: [
+                "Här håller vi till på kvällen för middag och senare dansgolv. Ett angränsande rum fungerar som mingel-/vilorum med bord och stolar för den som vill ta en paus från dansen. Middagen serveras bufféstil i rummet som hallen leder in till. Drycker finns i ishinkar i hallen – ta med till bordet, det är öppen bar.",
+              ],
+            },
+          ],
+        },
+        {
+          heading: "Vigseln",
+          paragraphs: [
+            "Främre raden är reserverad för närmaste familj/släkt samt Toastmaster/Maid of Honor. Det finns sittplatser för alla gäster, men man får också gärna stå om man föredrar det.",
+          ],
+        },
+        {
+          heading: "Vid regn",
+          paragraphs: ["Minglet flyttar då till mottagningsrummen på våning 2."],
+        },
+        {
+          heading: "Tillgänglighet",
+          paragraphs: [
+            "Slottet har tyvärr ingen hiss – middagen och dansgolvet på våning 3 nås endast via trappor. Har du svårt att gå i trappor, hör gärna av dig till oss i förväg så hjälps vi åt att planera.",
+          ],
+        },
+        {
+          heading: "Fotografering",
+          paragraphs: [
+            "Vi har en fotograf på plats under dagen som fotar brudparet innan vigseln, minglet efter vigseln, samt inledningen av middagen.",
+          ],
+        },
+        {
+          heading: "Presenter",
+          paragraphs: [
+            "Det bästa presenttipset är pengar – men det är helt frivilligt om ni även vill ta med en fysisk gåva. Då det efterfrågats finns ett presentbord i hallen mittemot kapellet.",
+          ],
+        },
+        {
+          heading: "Meny",
+          paragraphs: [
+            "Samtliga rätter är mjölk-/laktosfria. Det mesta är glutenfritt (undantag markeras nedan). Rätterna är fria från lök, förutom hummus, röror och ajvarrelish som innehåller vitlök.",
+          ],
+          groups: [
+            {
+              label: "Till drinken",
+              items: [
+                "Honungs- och chilirostade cashewnötter",
+                "Tunnbrödsnittar med kyckling och ajvarrelish (glutenfritt bröd i vissa)",
+              ],
+            },
+            {
+              label: "Buffé",
+              items: [
+                "Toast Skagen på danskt rågbröd (glutenfritt alternativ finns)",
+                "Teriyakimarinerad rostbiff (glutenfri soja, gräslök, sesamfrö)",
+                "Kallrökt lax med citronmajonäs",
+                "Himmelsk broccolisallad med rostade solroskärnor och knaperstekt bacon",
+                "Färskpotatissallad med soltorkad tomat, citron och basilika",
+                "Mango/avokado-salsa med lime och chili",
+                "Grönsallad med rostade frön och olivolja",
+                "Surdegslevain, frökex med tranbär, hummus, tapenade (vitlök i rörorna)",
+              ],
+            },
+            {
+              label: "Dessert",
+              items: ["Chokladbiskvitårta med färska hallon (glutenfri)"],
+            },
+          ],
+        },
+      ],
+    },
     day: {
       kicker: "Programmet",
       title: "Vår dag",
@@ -178,6 +301,127 @@ export const content = {
       venue: "Mälsåkers Slott",
       subtitle: "A weekend of love, food and celebration at Mälsåkers Slott",
       cta: "View Details",
+    },
+    dayDetails: {
+      kicker: "Good to Know",
+      title: "Practical Information",
+      subtitle:
+        "Everything you need to know about the venue, the day's schedule and the castle — tap a heading to read more.",
+      sections: [
+        {
+          heading: "Location & Directions",
+          paragraphs: ["Mälsåkers Slott, 645 93 Strängnäs."],
+          list: [
+            "Parking: Marked in red on the map. About a 5-minute walk to the castle.",
+            "Walking route to the castle: Follow the yellow marked route from the parking area — the avenue up to the castle is about 60% paved and 40% gravel, so plan your shoes accordingly!",
+            "Restrooms: Only available in the barrack (marked in orange on the map), next to the mingling area. Note: during dinner we'll be three flights up in the castle (stairs only, no elevator) — we recommend using the restroom before dinner starts.",
+            "Mingling/reception: Marked in blue on the map, where canapés and drinks will be served.",
+          ],
+        },
+        {
+          heading: "Schedule of the Day",
+          list: [
+            "14:30 – Arrival at the mingling area, canapés and drinks served",
+            "Ceremony in the chapel",
+            "Champagne toast after the ceremony",
+            "Continued mingling",
+            "18:00 – Dinner",
+          ],
+        },
+        {
+          heading: "Toastmaster & Speeches",
+          paragraphs: [
+            "Hampus's brother Jesper Ny is our Toastmaster for the evening.",
+            "Would you like to give a speech? Let Jesper know by Friday 21/8 at 18:00 at the latest, by phone 073-033 19 55.",
+          ],
+        },
+        {
+          heading: "About the Castle",
+          paragraphs: [
+            "Feel free to move around the castle freely, as long as a door isn't closed.",
+          ],
+          groups: [
+            {
+              label: "Floor 1",
+              items: [
+                "The chapel, where the ceremony takes place, is close to the mingling area. In the hall opposite the chapel there's a gift table. This floor also holds part of the castle's historical museum/exhibition.",
+              ],
+            },
+            {
+              label: "Floor 2",
+              items: [
+                "Continuation of the museum, as well as historical reception rooms — including the golden foyer and the tea salon. In case of rain, mingling moves here.",
+              ],
+            },
+            {
+              label: "Floor 3 – The Knights' Hall",
+              items: [
+                "This is where we'll be in the evening for dinner and later the dance floor. An adjoining room serves as a mingling/rest area with tables and chairs for anyone wanting a break from dancing. Dinner is served buffet-style in the room the hall leads into. Drinks are in ice buckets in the hall — bring them to your table, it's an open bar.",
+              ],
+            },
+          ],
+        },
+        {
+          heading: "The Ceremony",
+          paragraphs: [
+            "The front row is reserved for immediate family and the Toastmaster/Maid of Honor. There are seats for all guests, but you're also welcome to stand if you prefer.",
+          ],
+        },
+        {
+          heading: "In Case of Rain",
+          paragraphs: ["Mingling will move to the reception rooms on floor 2."],
+        },
+        {
+          heading: "Accessibility",
+          paragraphs: [
+            "Unfortunately the castle has no elevator — dinner and the dance floor on floor 3 are only reached via stairs. If stairs are difficult for you, please get in touch with us in advance so we can help plan.",
+          ],
+        },
+        {
+          heading: "Photography",
+          paragraphs: [
+            "We'll have a photographer on site during the day, capturing the couple before the ceremony, the mingling afterwards, and the start of dinner.",
+          ],
+        },
+        {
+          heading: "Gifts",
+          paragraphs: [
+            "The best gift tip is money — but it's entirely optional if you'd also like to bring a physical gift. Since it's been requested, there's a gift table in the hall opposite the chapel.",
+          ],
+        },
+        {
+          heading: "Menu",
+          paragraphs: [
+            "All dishes are dairy-/lactose-free. Most are gluten-free (exceptions marked below). The dishes are onion-free, except for the hummus, spreads and ajvar relish, which contain garlic.",
+          ],
+          groups: [
+            {
+              label: "With the Welcome Drink",
+              items: [
+                "Honey and chili-roasted cashews",
+                "Flatbread bites with chicken and ajvar relish (gluten-free bread available)",
+              ],
+            },
+            {
+              label: "Buffet",
+              items: [
+                "Toast Skagen on Danish rye bread (gluten-free option available)",
+                "Teriyaki-marinated roast beef (gluten-free soy, chives, sesame seeds)",
+                "Cold-smoked salmon with lemon mayonnaise",
+                "Heavenly broccoli salad with roasted sunflower seeds and crispy bacon",
+                "New potato salad with sun-dried tomato, lemon and basil",
+                "Mango/avocado salsa with lime and chili",
+                "Green salad with roasted seeds and olive oil",
+                "Sourdough levain, cranberry crackers, hummus, tapenade (garlic in the spreads)",
+              ],
+            },
+            {
+              label: "Dessert",
+              items: ["Chocolate biscuit cake with fresh raspberries (gluten-free)"],
+            },
+          ],
+        },
+      ],
     },
     day: {
       kicker: "The Programme",
