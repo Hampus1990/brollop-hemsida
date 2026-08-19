@@ -1,6 +1,7 @@
 import { LanguageProvider } from "@/components/language-provider"
 import { Navbar } from "@/components/navbar"
 import { Hero } from "@/components/hero"
+import { DayDetails } from "@/components/day-details"
 import { About } from "@/components/about"
 import { OurDay } from "@/components/our-day"
 import { Rsvp } from "@/components/rsvp"
@@ -16,6 +17,7 @@ export default function Page() {
       <Navbar />
       <main>
         <Hero />
+        <DayDetails />
         <About />
         <OurDay />
         <Rsvp />
