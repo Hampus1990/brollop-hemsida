@@ -28,6 +28,14 @@ export function DayDetails() {
           </p>
         </div>
 
+        <div className="mt-10 overflow-hidden rounded-sm border border-border md:mt-14">
+          <img
+            src="/images/Slottskarta.png"
+            alt={t.dayDetails.mapAlt}
+            className="w-full object-contain"
+          />
+        </div>
+
         <div className="mt-16 md:mt-20 divide-y divide-border border-t border-b border-border">
           {sections.map((section, i) => {
             const isOpen = openIndex === i
