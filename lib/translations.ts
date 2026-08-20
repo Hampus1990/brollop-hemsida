@@ -34,6 +34,7 @@ export const content = {
             "Gångväg till slottet: Följ den gula markerade rutten från parkeringen – allén fram till slottet består av ca 60% asfalt och 40% grus, så tänk på skorna!",
             "Toaletter: Finns endast i baracken (orange markering på kartan), i anslutning till mingelområdet. OBS: under middagen sitter vi tre trappor upp i slottet (endast trappa, ingen hiss) – ta gärna ett toalettbesök innan middagen börjar.",
             "Mingel/reception: Blått markerat område på kartan, där snittar och dryck finns framdukat.",
+            "Om det skulle regna, så går det bra att köra fram till slottet och släppa av folk, men parkering sker enbart vid det rödmarkerade området.",
           ],
         },
         {
@@ -72,12 +73,12 @@ export const content = {
         {
           heading: "Vigseln",
           paragraphs: [
-            "Främre raden är reserverad för närmaste familj/släkt samt Toastmaster/Maid of Honor. Det finns sittplatser för alla gäster, men man får också gärna stå om man föredrar det.",
+            "Främre raden är reserverad för närmaste familj/släkt samt Toastmaster/Maid of Honor. Det finns sittplatser för alla gäster, men man får också gärna stå om man föredrar det. Man får gärna ta bilder, men var inte ivägen för fotografen",
           ],
         },
         {
           heading: "Vid regn",
-          paragraphs: ["Minglet flyttar då till mottagningsrummen på våning 2."],
+          paragraphs: ["Minglet (Reception Area) flyttar då till mottagningsrummen på våning 2."],
         },
         {
           heading: "Tillgänglighet",
@@ -88,13 +89,13 @@ export const content = {
         {
           heading: "Fotografering",
           paragraphs: [
-            "Vi har en fotograf på plats under dagen som fotar brudparet innan vigseln, minglet efter vigseln, samt inledningen av middagen.",
+            "Vi har en fotograf på plats under dagen som fotar brudparet innan vigseln och därefter minglet efter vigseln, samt inledningen av middagen.",
           ],
         },
         {
           heading: "Presenter",
           paragraphs: [
-            "Det bästa presenttipset är pengar – men det är helt frivilligt om ni även vill ta med en fysisk gåva. Då det efterfrågats finns ett presentbord i hallen mittemot kapellet.",
+            "Det bästa presenttipset är att bidra till bröllopsresan – men det är helt frivilligt om ni även vill ta med en fysisk gåva. Då det efterfrågats finns ett presentbord i hallen mittemot kapellet.",
           ],
         },
         {
@@ -108,6 +109,7 @@ export const content = {
               items: [
                 "Honungs- och chilirostade cashewnötter",
                 "Tunnbrödsnittar med kyckling och ajvarrelish (glutenfritt bröd i vissa)",
+                "Rågskålar med hjortronkräm",
               ],
             },
             {
@@ -125,7 +127,12 @@ export const content = {
             },
             {
               label: "Dessert",
-              items: ["Chokladbiskvitårta med färska hallon (glutenfri)"],
+              items: [
+                "Chokladbiskvitårta med färska hallon (glutenfri)",
+                "Marängäppelkaka",
+                "Kladdkaka i Mousse-stil",
+                "Sommar-rulltårta med rabarber, vinbär och maräng",
+              ],
             },
           ],
         },
@@ -308,6 +315,7 @@ export const content = {
             "Walking route to the castle: Follow the yellow marked route from the parking area — the avenue up to the castle is about 60% paved and 40% gravel, so plan your shoes accordingly!",
             "Restrooms: Only available in the barrack (marked in orange on the map), next to the mingling area. Note: during dinner we'll be three flights up in the castle (stairs only, no elevator) — we recommend using the restroom before dinner starts.",
             "Mingling/reception: Marked in blue on the map, where canapés and drinks will be served.",
+            "If it would rain, it's ok to drive up to the castle to drop people off. However, parking is only allowed in the red marked area.",
           ],
         },
         {
@@ -346,12 +354,12 @@ export const content = {
         {
           heading: "The Ceremony",
           paragraphs: [
-            "The front row is reserved for immediate family and the Toastmaster/Maid of Honor. There are seats for all guests, but you're also welcome to stand if you prefer.",
+            "The front row is reserved for immediate family and the Toastmaster/Maid of Honor. There are seats for all guests, but you're also welcome to stand if you prefer. It's ok to take pictures, but make sure to not get in the way for the photographer",
           ],
         },
         {
           heading: "In Case of Rain",
-          paragraphs: ["Mingling will move to the reception rooms on floor 2."],
+          paragraphs: ["Mingle/Reception will move to the reception rooms on floor 2."],
         },
         {
           heading: "Accessibility",
@@ -368,7 +376,7 @@ export const content = {
         {
           heading: "Gifts",
           paragraphs: [
-            "The best gift tip is money — but it's entirely optional if you'd also like to bring a physical gift. Since it's been requested, there's a gift table in the hall opposite the chapel.",
+            "The best gift tip is to contribute to the honeymoon trip — but it's entirely optional if you'd also like to bring a physical gift. Since it's been requested, there's a gift table in the hall opposite the chapel.",
           ],
         },
         {
@@ -382,6 +390,7 @@ export const content = {
               items: [
                 "Honey and chili-roasted cashews",
                 "Flatbread bites with chicken and ajvar relish (gluten-free bread available)",
+                "Rye bowls with cloudberry cream",
               ],
             },
             {
@@ -399,7 +408,12 @@ export const content = {
             },
             {
               label: "Dessert",
-              items: ["Chocolate biscuit cake with fresh raspberries (gluten-free)"],
+              items: [
+                "Chocolate biscuit cake with fresh raspberries (gluten-free)",
+                "Meringue apple cake",
+                "Mudcake made in mousse style",
+                "Summer jelly roll with rhubarb, currants & mergingue",
+              ],
             },
           ],
         },
