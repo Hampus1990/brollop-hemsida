@@ -99,6 +99,12 @@ export const content = {
           ],
         },
         {
+          heading: "Buss",
+          paragraphs: [
+            "Bussen kommer hämtar upp vid gröna cirkeln, utanför slotts-allén vid festens slut. Bussen stannar vid Mälsåkers Vingård, Toresunds IP, Skäggestavägen, Kilenvägen, Präntaren.",            
+          ],
+        },
+        {
           heading: "Meny",
           paragraphs: [
             "Samtliga rätter är mjölk-/laktosfria. Det mesta är glutenfritt (undantag markeras nedan). Rätterna är fria från lök, förutom hummus, röror och ajvarrelish som innehåller vitlök.",
@@ -371,6 +377,12 @@ export const content = {
           heading: "Photography",
           paragraphs: [
             "We'll have a photographer on site during the day, capturing the couple before the ceremony, the mingling afterwards, and the start of dinner.",
+          ],
+        },
+        {
+          heading: "Bus",
+          paragraphs: [
+            "The bus pickup is at the green circle, just outside the tree allé leading to the castle. The bus will stop by Mälsåkers Vingård, Toresunds IP, Skäggestavägen, Kilenvägen, Präntaren.",                        
           ],
         },
         {
